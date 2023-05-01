@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        div.red::before{
+            content: 'Before';
+            background: red;
+        }
+        div.red::after{
+            content: 'after';
+            background: red;
+        }
+    </style>
+
+</head>
+<body>
+    <input required type="text"/>
+    <div class="red">This is div</div>
+    <div>TEST DIV</div>
+    <span>This is span</span>
+    <div>
+            <b>nested text</b>
+    </div>
+    <ul>
+        <li>Item 1</li>
+        <li class="red">Item 2</li>
+        <li class="green">Item 3</li>
+        <li>Item 4</li>
+    </ul>
+
+
+</body>
+
+</html>

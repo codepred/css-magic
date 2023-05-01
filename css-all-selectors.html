@@ -7,6 +7,9 @@ ul + p {
 }
 a:link { color: red; }
 a:visited { color: purple; }
+div#container > ul {
+  border: 1px solid black;
+}
 
 </style>
 
@@ -31,7 +34,18 @@ a:visited { color: purple; }
     </ul>
     <a href="https://codepred.pl">WP STRONA123</a>
 
-
+    <div id="container">
+        <ul>
+               <li> List Item
+                 <ul>
+                    <li> Child </li>
+                 </ul>
+               </li>
+               <li> List Item </li>
+               <li> List Item </li>
+               <li> List Item </li>
+            </ul>
+         </div>
 </body>
 
 </html>

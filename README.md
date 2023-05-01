@@ -17,3 +17,6 @@ https://code.tutsplus.com/pl/tutorials/the-30-css-selectors-you-must-memorize--n
 
 
 3. Jak już wybierzesz dany element drzewa to co możesz z nim zrobić przy użyciu CSS. Zmienić kolor, wielkość itd...
+
+![image](https://user-images.githubusercontent.com/104677364/235499793-bc536586-c264-46bf-a859-0531f37af563.png)
+
